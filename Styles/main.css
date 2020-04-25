@@ -1,0 +1,57 @@
+body {
+  padding-left: 1.5em;
+}
+
+body .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px 20px;
+}
+
+body h2 {
+  padding-left: 1.5em;
+}
+
+.addForm {
+  width: 60%;
+  padding: 0 5px;
+}
+
+.addForm .addBtn {
+  background-color: mediumturquoise;
+}
+
+.tasklist {
+  line-height: 2;
+  list-style-type: none;
+  text-indent: 2em;
+}
+
+.tasklist ul {
+  margin: 0;
+  padding: 0;
+}
+
+.tasklist li {
+  width: 400px;
+  background-color: lightslategray;
+  border: 1px solid #0c0ea7;
+  color: #0b0b0f;
+  /* Style the input */
+}
+
+.tasklist li .delBtn {
+  height: 1em;
+  width: 0.8em;
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: none;
+}
+
+.addForm {
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */
